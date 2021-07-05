@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:400;
+}
+ul,a{
+  list-style:none;
+  text-decoration: none;
+}
+/* header part start */
+header{
+ padding: 25px 0px;
+}
+.container{
+  overflow: hidden;
+  margin: 0 auto;
+  width:90%;
+}
+.logo{
+  width:15%;
+  float: left;
+}
+.logo a img{
+  width:100%;
+}
+.menu{
+  width:70%;
+  float: right;
+}
+.menu ul{
+  float: right;
+}
+.menu ul li{
+  float:left;
+  padding: 0px 35px;
+}
+.menu ul li:last-child{
+  padding-right:0px;
+}
+.menu ul li a{
+  margin-top: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color:#999;
+  display: block;
+}
+/* header part end */
+
+/* header part start */
+.header{
+ padding: 25px 0px;
+ background:#ffd809;
+}
+.container{
+  overflow: hidden;
+  margin: 0 auto;
+  width:90%;
+}
+.logo_1{
+  width:16%;
+  float: left;
+}
+.logo_1 a img{
+  width:100%;
+}
+.menu_1{
+  width:70%;
+  float: right;
+}
+.menu_1 ul{
+  float: right;
+}
+.menu_1 ul li{
+  float:left;
+  padding: 0px 40px;
+}
+.menu_1 ul li:last-child{
+  padding-right:0px;
+}
+.menu_1 ul li a{
+  margin-top: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:500;
+  font-size: 16px;
+  text-transform: capitalize;
+  color:#000;
+  display: block;
+}
+/* header part end */
